@@ -9,17 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac695078a4570b04799aa9e0d79e7284, type: 3}
-  m_Name: New Crop Data
+  m_Script: {fileID: 11500000, guid: c8c590d8137c773458214a234abb1417, type: 3}
+  m_Name: Cauliflower Seed
   m_EditorClassIdentifier: 
-  itemId: 1
-  itemType: 1
-  itemName: 
-  showIcon: {fileID: 0}
+  itemId: 3
+  itemType: 0
+  itemName: "\u82B1\u83DC\u79CD\u5B50"
+  showIcon: {fileID: -4009637758380326418, guid: 04ea9f1f97f8c514fbf848cf09dc6d8b, type: 3}
   craftingMaterials: []
-  stageSprites: []
-  stageDurations: []
-  destroyOnHarvest: 1
-  revertOnHarvest: 0
-  revertStageIndex: 0
-  harvestDrops: []
+  cropToGrow: {fileID: 0}

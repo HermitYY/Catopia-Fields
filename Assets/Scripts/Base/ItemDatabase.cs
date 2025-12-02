@@ -13,8 +13,8 @@ public class ItemDatabase : MonoSingleton<ItemDatabase>
 
         dict = new Dictionary<int, ItemData>();
 
-        // 自动加载 Resources/Items 下所有 ItemDefinition
-        var allItems = Resources.LoadAll<ItemData>("Items");
+        // 自动加载 Resources/ObjectItems/ItemData 下所有 ItemDefinition
+        var allItems = Resources.LoadAll<ItemData>("ObjectItems/Items");
 
         foreach (var item in allItems)
         {

@@ -4,7 +4,6 @@ using UnityEngine;
 public enum ItemType
 {
     Seed,       // 种子
-    Crop,       // 作物
     Food,       // 食物
     Tool,       // 工具
     Weapon,     // 武器
