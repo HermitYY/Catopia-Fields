@@ -1,0 +1,12 @@
+.vs/
+Library/
+Logs/
+obj/
+UserSettings/
+.vscode/
+Temp/
+*.vsconfig
+*.csproj
+*.sln
+*.htm
+Assets/Fonts/YuanRun SDF.asset
