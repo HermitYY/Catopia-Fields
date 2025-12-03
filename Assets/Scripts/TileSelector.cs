@@ -1,5 +1,6 @@
 using System.Text;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 
 public class TileSelector : MonoBehaviour
@@ -97,6 +98,9 @@ public class TileSelector : MonoBehaviour
 
     void HandleMouseClick()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if (Input.GetMouseButtonDown(0))
         {
             // 不能放置：ground 没 tile 或 blockTilemap 有 tile
